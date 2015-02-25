@@ -8,7 +8,6 @@ gem 'jquery-rails',         '4.0.3'
 gem 'turbolinks',           '2.3.0'
 gem 'jbuilder',             '2.2.3'
 gem 'sdoc',                 '0.4.0', group: :doc
-gem 'foundation-rails'
 
 # windows specific
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw]
@@ -31,3 +30,5 @@ group :production do
   gem 'pg',             '0.17.1'
   gem 'rails_12factor', '0.0.2'
 end
+
+gem 'bootstrap-sass', '~> 3.3.3'
