@@ -5,6 +5,9 @@ class StaticPagesController < ApplicationController
   
   def minigoals
   end
+  
+  def about
+  end
 
 
 end
