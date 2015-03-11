@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-
+  
 gem 'rails',                '4.2.0'
 gem 'sass-rails',           '5.0.1'
 gem 'uglifier',             '2.5.3'
@@ -33,3 +33,5 @@ end
 
 gem 'bootstrap-sass', '~> 3.3.3'
 gem 'haml', '~> 4.0.6'
+
+gem 'jquery-ui-rails'
