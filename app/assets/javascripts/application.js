@@ -34,25 +34,25 @@ $(function(){
        }
   });
 
-  // var angle = 0;
-  // setInterval(function(){
-  //       angle+=3;
-  //      $("#image").rotate(angle);
-  // },50);
+  var angle = 0;
+  setInterval(function(){
+        angle+=.5;
+       $("#image").rotate(angle);
+  },50);
 
 
 
-  var value = 0
-  $("#image").rotate({ 
-     bind:
-       {
-          click: function(){
-              value +=90;
-              $(this).rotate({ animateTo:value})
-          }
-       }
-
-  });
+  // var value = 0
+  // $("#image").rotate({
+  //    bind:
+  //      {
+  //         click: function(){
+  //             value +=90;
+  //             $(this).rotate({ animateTo:value})
+  //         }
+  //      }
+  //
+  // });
 
 
 
